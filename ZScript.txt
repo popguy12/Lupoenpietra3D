@@ -1,0 +1,26 @@
+version "4.5.0"
+
+class Lupo3D_DummyActor : Actor {}
+
+#include "ZScript/LupoCore.zsc"
+#include "ZScript/MathNMixins.zs"
+
+#include "ZScript/Player/PlayerPawn.zs"
+#include "ZScript/Player/InteractionsHandler.zs"
+//#include "ZScript/HUD.zs"
+
+#include "ZScript/Weapons/BaseWeapon_States.zs"
+#include "ZScript/Weapons/BaseWeapon_Functions.zs"
+#include "ZScript/Weapons/BaseWeapon_Vars.zs"
+#include "ZScript/Weapons/QuickGrenade.zs"
+
+#include "ZScript/Items/AmmoBase.zsc"
+#include "ZScript/Items/HPAPBase.zsc"
+#include "ZScript/Items/PowerupsBase.zsc"
+
+#include "ZScript/Effects/Smoke.zs"
+#include "ZScript/Effects/Explosion.zsc"
+
+#include "ZScript/Weapons/Projectiles/BulletProjectile.zsc"
+
+#include "ZScript/Weapons/Slot10/Holster.zsc"

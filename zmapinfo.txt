@@ -1,0 +1,79 @@
+Gameinfo
+{
+
+	NoRandomPlayerClass = True
+	PlayerClasses = "Lupo3DPlayer"
+	AddEventHandlers = "Lupo3D_PlayerHandler"
+	DimColor = "Black"
+	DimAmount = 0.70
+	//StatusBarClass = "COD_HUD"
+}
+
+ClearSkills
+
+Skill baby
+{
+	AmmoFactor = 1
+	DamageFactor = 0.25
+	MonsterHealth = 0.5
+	EasyBossBrain
+	SlowMonsters
+	EasyKey
+	TotalInfighting
+	PlayerRespawn
+	SpawnFilter = easy
+	Textcolor = Blue
+	Name = "Can I play, Daddy?"
+	MustConfirm = "Infant\
+	---\
+	50% Enemy Health Reduction\
+	75% Damage Resistance\
+	\
+	Keys are visible in Automap\
+	Player respawning is enabled\
+	---\
+	Tourist mode."
+}
+
+Skill easy
+{
+	MonsterHealth = 0.75
+	DamageFactor = 0.75
+	SpawnFilter = normal
+	Textcolor = Cyan
+	Name = "Don't hurt me."
+	MustConfirm = "Easy\
+	---\
+	25% Damage Resistance\
+	25% Enemy Health Reduction\
+	---\
+	The difficulty to learn the ropes."
+}
+
+Skill normal
+{
+	DefaultSkill
+	SpawnFilter = Hard
+	Textcolor = Green
+	Name = "Bring 'em on!"
+	MustConfirm = "Normal\
+	---\
+	Stock game balance\
+	---\
+	The baseline intended difficulty."
+}
+
+Skill Hard
+{
+	DamageFactor = 1.2
+	Aggressiveness = 0.25
+	SpawnFilter = Hard
+	Textcolor = Yellow
+	Name = "I am Death incarnate!"
+	MustConfirm = "Hard\
+	---\
+	20% More Damage\
+	25% More Aggressive Monsters\
+	---\
+	For skilled players."
+}

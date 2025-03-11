@@ -1,0 +1,22 @@
+class Lupo3D_Inventory : Inventory
+{
+    mixin Lupo3D_BetterPickupSound;
+	
+	Default
+	{
+		+BRIGHT
+		+COUNTITEM
+		+DONTGIB
+		+INVENTORY.AUTOACTIVATE
+		+INVENTORY.NOSCREENFLASH
+	}
+}
+
+class Lupo3D_PowerupGiver : PowerupGiver
+{
+	Default
+	{
+		+INVENTORY.AUTOACTIVATE;
+		+INVENTORY.ALWAYSPICKUP;
+	}
+}

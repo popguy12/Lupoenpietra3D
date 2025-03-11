@@ -1,0 +1,14 @@
+class Lupo3D_Ammo : Ammo
+{
+    int cap,ca,res; name ammotype; string p;
+	property ammotype : ammotype;
+	
+	mixin Lupo3D_BetterPickupSound;
+	
+    Default
+    {
+        +FLOORCLIP
+	    +DONTGIB
+	    +INVENTORY.IGNORESKILL
+    }
+}

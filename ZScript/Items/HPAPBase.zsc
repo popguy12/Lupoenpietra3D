@@ -1,0 +1,25 @@
+class Lupo3D_Health : Health abstract
+{
+	mixin Lupo3D_BetterPickupSound;
+}
+
+class Lupo3D_Armor : BasicArmorPickup abstract
+{
+	mixin Lupo3D_BetterPickupSound;
+	
+	Default
+	{
+		+INVENTORY.AUTOACTIVATE;
+		Inventory.MaxAmount 0;
+	}
+}
+
+class Lupo3D_Armor2 : BasicArmorBonus abstract
+{
+	mixin Lupo3D_BetterPickupSound;
+	
+	Default
+	{
+		+INVENTORY.AUTOACTIVATE;
+	}
+}
