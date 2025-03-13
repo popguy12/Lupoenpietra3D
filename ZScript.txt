@@ -1,9 +1,11 @@
-version "4.5.0"
+version "4.14.0"
 
 class Lupo3D_DummyActor : Actor {}
 
 #include "ZScript/LupoCore.zsc"
 #include "ZScript/MathNMixins.zs"
+#include "zsaGutamatics/Include.zsc"
+#include "zsanimator.zs"
 
 #include "ZScript/Player/PlayerPawn.zs"
 #include "ZScript/Player/InteractionsHandler.zs"
