@@ -1,3 +1,6 @@
+#include "ZScript/zsaGutamatics/Include.zs"
+#include "ZScript/zsaGutamatics/transformmatrix.zs"
+
 class ZSAnimationFrame
 {
 	enum FrameValue
